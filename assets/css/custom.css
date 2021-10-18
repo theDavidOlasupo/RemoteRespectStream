@@ -1,0 +1,54 @@
+video {
+    height: auto;
+    width: 100%;
+    margin: 50px 0 30px;
+}
+
+.content-section {
+    margin-bottom: 50px;
+}
+
+.video-text {
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+    margin: auto;
+}
+
+.contact-section {
+    margin: auto;
+}
+
+.contact-section .panel {
+    padding: 30px;
+}
+
+.contact-section .row > * {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+input, 
+textarea {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 600px) {
+    video {
+        width: 90%;
+    }
+
+    .video-text {
+        max-width: 90%;
+    }
+
+    .contact-section {
+        max-width: 80%;
+    }
+
+    .contact-section .panel {
+        padding: 50px;
+    }    
+}
